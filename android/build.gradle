@@ -1,8 +1,9 @@
 group 'com.idlefish.flutterboost'
-version '1.0-SNAPSHOT'
+version 'v1.9.1_suport+1'
 
 buildscript {
     repositories {
+        maven { url "http://mvnrepo.alibaba-inc.com/mvn/repository" }
         google()
         jcenter()
     }
@@ -14,6 +15,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
+        maven { url "http://mvnrepo.alibaba-inc.com/mvn/repository" }
         google()
         jcenter()
     }
